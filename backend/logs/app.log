@@ -1,0 +1,752 @@
+{
+  message: 'Socket.IO server initialized',
+  level: 'info',
+  timestamp: '2025-08-23 12:09:25'
+}
+{
+  message: '🚀 Server running on port 5000',
+  level: 'info',
+  timestamp: '2025-08-23 12:09:25'
+}
+{
+  message: '📱 Frontend URL: http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-23 12:09:25'
+}
+{
+  method: 'GET',
+  url: '/health',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  timestamp: '2025-08-23 12:11:14',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  method: 'GET',
+  url: '/health',
+  statusCode: 200,
+  duration: '4ms',
+  timestamp: '2025-08-23 12:11:14',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/favicon.ico',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  timestamp: '2025-08-23 12:11:14',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  method: 'GET',
+  url: '/favicon.ico',
+  statusCode: 404,
+  duration: '1ms',
+  timestamp: '2025-08-23 12:11:14',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  timestamp: '2025-08-23 12:12:10',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  duration: '1ms',
+  timestamp: '2025-08-23 12:12:10',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/health',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 12:15:28',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  method: 'GET',
+  url: '/health',
+  statusCode: 200,
+  duration: '1ms',
+  timestamp: '2025-08-23 12:15:28',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/api/chat/test',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 12:19:59',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '/test',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 12:19:59'
+}
+{
+  method: 'GET',
+  url: '/test',
+  statusCode: 200,
+  duration: '2ms',
+  timestamp: '2025-08-23 12:19:59',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'POST',
+  url: '/api/chat/start-session',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 12:21:49',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '/start-session',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 12:21:49'
+}
+{
+  sessionId: '0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  userId: 'user123',
+  userName: 'shaili',
+  agentId: 'agent-1',
+  agentName: 'Alice Smith',
+  level: 'info',
+  message: 'New chat session created',
+  timestamp: '2025-08-23 12:21:49'
+}
+{
+  method: 'POST',
+  url: '/start-session',
+  statusCode: 201,
+  duration: '4ms',
+  timestamp: '2025-08-23 12:21:49',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/api/chat/messages/0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 12:24:55',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '/messages/0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 12:24:55'
+}
+{
+  sessionId: '0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  messageCount: 0,
+  level: 'info',
+  message: 'Messages retrieved',
+  timestamp: '2025-08-23 12:24:55'
+}
+{
+  method: 'GET',
+  url: '/messages/0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  statusCode: 200,
+  duration: '4ms',
+  timestamp: '2025-08-23 12:24:55',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/api/chat/agent-stats',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 12:26:52',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '/agent-stats',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 12:26:52'
+}
+{
+  method: 'GET',
+  url: '/agent-stats',
+  statusCode: 200,
+  duration: '2ms',
+  timestamp: '2025-08-23 12:26:52',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/api/chat/end-session/0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 12:45:08',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '/end-session/0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 12:45:08'
+}
+{
+  method: 'GET',
+  url: '/api/chat/end-session/0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  statusCode: 404,
+  duration: '3ms',
+  timestamp: '2025-08-23 12:45:08',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/api/end-session/0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 12:46:51',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  method: 'GET',
+  url: '/api/end-session/0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  statusCode: 404,
+  duration: '1ms',
+  timestamp: '2025-08-23 12:46:51',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/api/end-session/0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 12:46:53',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  method: 'GET',
+  url: '/api/end-session/0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  statusCode: 404,
+  duration: '1ms',
+  timestamp: '2025-08-23 12:46:53',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/api/chat//messages/:0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 12:56:51',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '//messages/:0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 12:56:51'
+}
+{
+  method: 'GET',
+  url: '/api/chat//messages/:0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  statusCode: 404,
+  duration: '3ms',
+  timestamp: '2025-08-23 12:56:51',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/api/chat/messages/:0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 12:57:00',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '/messages/:0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 12:57:00'
+}
+{
+  sessionId: ':0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  ip: '::ffff:127.0.0.1',
+  level: 'warn',
+  message: 'Attempt to access non-existent session',
+  timestamp: '2025-08-23 12:57:00'
+}
+{
+  method: 'GET',
+  url: '/messages/:0841a31e-f9fa-4ad3-a3a5-f96ef84d273c',
+  statusCode: 404,
+  duration: '2ms',
+  timestamp: '2025-08-23 12:57:00',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  message: 'Socket.IO server initialized',
+  level: 'info',
+  timestamp: '2025-08-23 13:03:04'
+}
+{
+  message: '🚀 Server running on port 5000',
+  level: 'info',
+  timestamp: '2025-08-23 13:03:04'
+}
+{
+  message: '📱 Frontend URL: http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-23 13:03:04'
+}
+{
+  method: 'GET',
+  url: '/api/chat/test',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 13:05:46',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '/test',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 13:05:46'
+}
+{
+  method: 'GET',
+  url: '/test',
+  statusCode: 200,
+  duration: '2ms',
+  timestamp: '2025-08-23 13:05:46',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'POST',
+  url: '/api/chat/start-session',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 13:05:54',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '/start-session',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 13:05:54'
+}
+{
+  sessionId: '45c1bd2d-6f50-484e-8d7a-b0195f58b71a',
+  userId: 'user123',
+  userName: 'shaili',
+  agentId: 'agent-1',
+  agentName: 'Alice Smith',
+  level: 'info',
+  message: 'New chat session created',
+  timestamp: '2025-08-23 13:05:54'
+}
+{
+  method: 'POST',
+  url: '/start-session',
+  statusCode: 201,
+  duration: '4ms',
+  timestamp: '2025-08-23 13:05:54',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/api/chat/messages/45c1bd2d-6f50-484e-8d7a-b0195f58b71a',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 13:06:17',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '/messages/45c1bd2d-6f50-484e-8d7a-b0195f58b71a',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 13:06:17'
+}
+{
+  sessionId: '45c1bd2d-6f50-484e-8d7a-b0195f58b71a',
+  messageCount: 0,
+  level: 'info',
+  message: 'Messages retrieved',
+  timestamp: '2025-08-23 13:06:17'
+}
+{
+  method: 'GET',
+  url: '/messages/45c1bd2d-6f50-484e-8d7a-b0195f58b71a',
+  statusCode: 200,
+  duration: '2ms',
+  timestamp: '2025-08-23 13:06:17',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/api/chat/messages/:45c1bd2d-6f50-484e-8d7a-b0195f58b71a',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 13:06:36',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '/messages/:45c1bd2d-6f50-484e-8d7a-b0195f58b71a',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 13:06:36'
+}
+{
+  sessionId: ':45c1bd2d-6f50-484e-8d7a-b0195f58b71a',
+  ip: '::ffff:127.0.0.1',
+  level: 'warn',
+  message: 'Attempt to access non-existent session',
+  timestamp: '2025-08-23 13:06:36'
+}
+{
+  method: 'GET',
+  url: '/messages/:45c1bd2d-6f50-484e-8d7a-b0195f58b71a',
+  statusCode: 404,
+  duration: '1ms',
+  timestamp: '2025-08-23 13:06:36',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/api/chat/messages/45c1bd2d-6f50-484e-8d7a-b0195f58b71a',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 13:06:41',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '/messages/45c1bd2d-6f50-484e-8d7a-b0195f58b71a',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 13:06:41'
+}
+{
+  sessionId: '45c1bd2d-6f50-484e-8d7a-b0195f58b71a',
+  messageCount: 0,
+  level: 'info',
+  message: 'Messages retrieved',
+  timestamp: '2025-08-23 13:06:41'
+}
+{
+  method: 'GET',
+  url: '/messages/45c1bd2d-6f50-484e-8d7a-b0195f58b71a',
+  statusCode: 200,
+  duration: '2ms',
+  timestamp: '2025-08-23 13:06:41',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  message: 'Socket.IO server initialized',
+  level: 'info',
+  timestamp: '2025-08-23 16:08:24'
+}
+{
+  message: '🚀 Server running on port 5000',
+  level: 'info',
+  timestamp: '2025-08-23 16:08:24'
+}
+{
+  message: '📱 Frontend URL: http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-23 16:08:24'
+}
+{
+  method: 'GET',
+  url: '/api/chat/test',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 16:08:34',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '/test',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 16:08:34'
+}
+{
+  method: 'GET',
+  url: '/test',
+  statusCode: 200,
+  duration: '6ms',
+  timestamp: '2025-08-23 16:08:34',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'POST',
+  url: '/api/chat/start-session',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 16:08:54',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '/start-session',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 16:08:54'
+}
+{
+  sessionId: 'fb0beca3-b6a5-420b-a606-b1b774ce2555',
+  userId: 'user123',
+  userName: 'shaili',
+  agentId: 'agent-1',
+  agentName: 'Alice Smith',
+  level: 'info',
+  message: 'New chat session created',
+  timestamp: '2025-08-23 16:08:54'
+}
+{
+  method: 'POST',
+  url: '/start-session',
+  statusCode: 201,
+  duration: '3ms',
+  timestamp: '2025-08-23 16:08:54',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/api/end-session/fb0beca3-b6a5-420b-a606-b1b774ce2555',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 16:10:21',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  method: 'GET',
+  url: '/api/end-session/fb0beca3-b6a5-420b-a606-b1b774ce2555',
+  statusCode: 404,
+  duration: '1ms',
+  timestamp: '2025-08-23 16:10:21',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/api/chat/messages/fb0beca3-b6a5-420b-a606-b1b774ce2555',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 16:10:42',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '/messages/fb0beca3-b6a5-420b-a606-b1b774ce2555',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 16:10:42'
+}
+{
+  sessionId: 'fb0beca3-b6a5-420b-a606-b1b774ce2555',
+  messageCount: 0,
+  level: 'info',
+  message: 'Messages retrieved',
+  timestamp: '2025-08-23 16:10:42'
+}
+{
+  method: 'GET',
+  url: '/messages/fb0beca3-b6a5-420b-a606-b1b774ce2555',
+  statusCode: 200,
+  duration: '3ms',
+  timestamp: '2025-08-23 16:10:42',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/api/chat/messages/fb0beca3-b6a5-420b-a606-b1b774ce2555',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 16:10:44',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '/messages/fb0beca3-b6a5-420b-a606-b1b774ce2555',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 16:10:44'
+}
+{
+  sessionId: 'fb0beca3-b6a5-420b-a606-b1b774ce2555',
+  messageCount: 0,
+  level: 'info',
+  message: 'Messages retrieved',
+  timestamp: '2025-08-23 16:10:44'
+}
+{
+  method: 'GET',
+  url: '/messages/fb0beca3-b6a5-420b-a606-b1b774ce2555',
+  statusCode: 200,
+  duration: '11ms',
+  timestamp: '2025-08-23 16:10:44',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  method: 'GET',
+  url: '/api/chat/messages/fb0beca3-b6a5-420b-a606-b1b774ce2555',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 16:10:44',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '/messages/fb0beca3-b6a5-420b-a606-b1b774ce2555',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 16:10:44'
+}
+{
+  sessionId: 'fb0beca3-b6a5-420b-a606-b1b774ce2555',
+  messageCount: 0,
+  level: 'info',
+  message: 'Messages retrieved',
+  timestamp: '2025-08-23 16:10:44'
+}
+{
+  method: 'GET',
+  url: '/messages/fb0beca3-b6a5-420b-a606-b1b774ce2555',
+  statusCode: 200,
+  duration: '3ms',
+  timestamp: '2025-08-23 16:10:44',
+  level: 'info',
+  message: 'Response Sent'
+}
+{
+  message: 'Socket.IO server initialized',
+  level: 'info',
+  timestamp: '2025-08-23 16:54:48'
+}
+{
+  message: '🚀 Server running on port 5000',
+  level: 'info',
+  timestamp: '2025-08-23 16:54:48'
+}
+{
+  message: '📱 Frontend URL: http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-23 16:54:48'
+}
+{
+  message: 'Socket.IO server initialized',
+  level: 'info',
+  timestamp: '2025-08-23 17:08:23'
+}
+{
+  message: '🚀 Server running on port 5000',
+  level: 'info',
+  timestamp: '2025-08-23 17:08:24'
+}
+{
+  message: '📱 Frontend URL: http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-23 17:08:24'
+}
+{
+  message: 'Socket.IO server initialized',
+  level: 'info',
+  timestamp: '2025-08-23 17:11:21'
+}
+{
+  message: '🚀 Server running on port 5000',
+  level: 'info',
+  timestamp: '2025-08-23 17:11:21'
+}
+{
+  message: '📱 Frontend URL: http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-23 17:11:21'
+}
+{
+  method: 'GET',
+  url: '/api/chat/test',
+  ip: '::ffff:127.0.0.1',
+  userAgent: 'Thunder Client (https://www.thunderclient.com)',
+  timestamp: '2025-08-23 17:11:33',
+  level: 'info',
+  message: 'Incoming Request'
+}
+{
+  ip: '::ffff:127.0.0.1',
+  url: '/test',
+  level: 'debug',
+  message: 'API key authentication successful',
+  timestamp: '2025-08-23 17:11:33'
+}
+{
+  method: 'GET',
+  url: '/test',
+  statusCode: 200,
+  duration: '4ms',
+  timestamp: '2025-08-23 17:11:33',
+  level: 'info',
+  message: 'Response Sent'
+}
